@@ -36,8 +36,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :passwordless_login_app, PasswordlessLoginApp.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "phoenix",
+  password: "xineohp",
   database: "passwordless_login_app_dev",
   hostname: "localhost",
   pool_size: 10
